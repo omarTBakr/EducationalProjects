@@ -31,7 +31,7 @@ This project provides a basic implementation of a hospital management 
 
 # Tackling the Problem
 
-_This is my approach, feel free to design the system any way you want, but consider checking this design and understand how it's implemented as it focuses on some OOP principles _
+_This is my approach, feel free to design the system any way you want, but consider checking this design and understand how it's implemented as it focuses on some OOP principles_
 The code is structured into classes representing different entities in the system:
 
 - Status: An Enum defining patient priority levels.

@@ -37,3 +37,5 @@ To understand the system, start by examining these classes and their 
 # Additinal
 - modularize the code (separate different classes into different modules)
 - do more error-handling
+- you can use sort() for more neat handling of adding patient 
+      - hint: overload '<' operator 

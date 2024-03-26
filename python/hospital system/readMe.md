@@ -17,16 +17,6 @@ This project provides a basic implementation of a hospital management 
 
 - Python 3.7 or later
     
-
-### Getting Started
-
-1. Clone or download this repository.
-    
-2. Open a terminal in the project directory.
-    
-3. Run the program using the command: python main.py
-    
-4. Follow the prompts to interact with the system and manage patients.
     
 
 # Tackling the Problem
@@ -44,3 +34,6 @@ The code is structured into classes representing different entities in�
     
 
 To understand the system, start by examining these classes and their methods. The HospitalSystem class drives the main program loop, handling user input and calling appropriate methods from other classes.
+# Additinal
+- modularize the code (separate different classes into different modules)
+- do more error-handling

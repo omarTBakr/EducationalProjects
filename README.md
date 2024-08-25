@@ -13,6 +13,7 @@ Covers essential programming concepts such as variables, data types, control flo
 # Target Audience:
 - Students enrolled in introductory programming courses
 - Beginners who want to learn the basics of programming
+- intermediate programmers who want to consolidate their understanding of the language 
   
 # Usage:
 do whatever you want, but I recommend taking the requirements and starting to tackle the problem, if you get stuck you can see the overall design ( don't jump into implementation )

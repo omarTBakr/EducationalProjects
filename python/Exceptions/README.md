@@ -120,13 +120,10 @@ if __name__ == '__main__':
 you can use `traceback.TracebackException`[here is a link](https://docs.python.org/3/library/traceback.html#tracebackexception-objects)
 ```python
 from traceback import TracebackException
-def log_trace_back(self):
-    exp = TracebackException(exc_type= type(self)  ,
-                             exc_value= self ,
-                            exc_traceback = self.__traceback__
-                                )
-     
-    tp = ' '.join(list(exp.format(chain = True)))
-    logging.debug(tp)
+  def log_trace_back(self):
+        exp = TracebackException.from_exception(self)
+        # lst = exp.format(chain= True)
+        joined = ' '.join(exp.format(chain= True ))
+        logging.debug(joined)
 ```
  

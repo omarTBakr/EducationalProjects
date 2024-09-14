@@ -42,12 +42,13 @@ class WidgetException( Exception):
 
 
     def log_trace_back(self):
-        exp = TracebackException(exc_type= type(self)  ,
-                                 exc_value= self ,
-                                exc_traceback = self.__traceback__
-                                    )
-        lst = exp.format(chain= True)
-        joined = ' '.join(list(lst))
+        # exp = TracebackException(exc_type= type(self)  ,
+        #                          exc_value= self ,
+        #                         exc_traceback = self.__traceback__
+        #                             )
+        exp = TracebackException.from_exception(self)
+        # lst = exp.format(chain= True)
+        joined = ' '.join(exp.format(chain= True ))
         logging.debug(joined)
 class SupplierException(WidgetException):
     pass
